@@ -1,0 +1,23 @@
+{
+	"name": "GCC", 
+	"dockerComposeFile":
+    [
+        "../docker-compose.yml"
+    ],
+	"service": "gcc",
+	"workspaceFolder": "/workdir",
+	"customizations": 
+	{
+		"vscode":
+		{
+			"settings": 
+			{
+				"editor.tabSize": 4
+			}, 
+			"extensions": 
+			[
+				"vincaslt.highlight-matching-tag"
+			]
+		}
+	}
+}
